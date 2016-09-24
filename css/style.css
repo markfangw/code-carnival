@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto';
+
+/* GENERAL STYLE */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	background-color: #E3F2FD;
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	border-color: none;
+
+}
+
+.icon {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar-nav {
+	background-color: #8C9EFF; 
+	font-family: 'Open Sans', sans-serif;
+}
+.services section {
+    text-align: center;
+}
+
+.imghead {
+	background-image: url('../img/Chocolate-Cupcakes.jpg');
+	background-center: bottom center;
+	background-size: cover;
+	height: 700px;
+	
+}
+@media(min-width: 1200px) {
+    h3 {
+        margin-top: 0;
+    }
+    .services section {
+        text-align: left;
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
